@@ -9,4 +9,12 @@ mod disambiguation;
 
 fn main() {
     println!("Rust Traits Exercises");
+    derive_traits::run();
+    dyn_dispatch::run();
+    operator_overloading::run();
+    drop_trait::run();
+    iterators::run();
+    impl_trait::run();
+    supertraits::run();
+    disambiguation::run();
 }
