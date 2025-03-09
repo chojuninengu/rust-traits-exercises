@@ -16,7 +16,7 @@ impl Iterator for Counter {
 }
 
 pub fn run() {
-    let  counter = Counter { count: 0 };
+    let  mut counter = Counter { count: 0 };
     for val in counter {
         println!("{}", val);
     }
